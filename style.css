@@ -1,0 +1,80 @@
+
+
+.container{
+
+}
+section .navbar-container{
+    /* background-color: rgb(238, 118, 118); */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+section nav .grow-list .list .list-item{
+    font-family: Poppins, sans-serif;
+    position: relative;
+    justify-content: space-around;
+    width: 50px;
+    list-style: none;
+    float: left;
+    margin-left: 45px;
+    left: -40vh;
+    font-size: 20px;
+}
+nav .button-group button{
+    background-color: #7475DA;
+    /* padding: 10px; */
+    width: 100px;
+    height: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:hidden;
+    color: #fff;
+}
+nav div img{
+    margin-left: 40px;
+    width: 130px;
+}
+.banner-container div .heading-text {
+    position: absolute;
+    font-size: 4em;
+    width: 65vh;
+    height: 35vh;
+    /* background-color: aqua; */
+    left: 40px;
+    font-family: Poppins, sans-serif;
+    color: rgb(47, 47, 97);
+}
+.banner-container div .heading-text span{
+    color: #7475DA;
+}
+.banner-container div .description {
+    /* background-color: aqua; */
+    position: absolute;
+    top: 440px;
+    left: 50px;
+    text-align: center;
+    width: 58vh;
+    font-family: Poppins, sans-serif;
+    color: rgb(102, 110, 110);
+
+
+}
+.banner-container div button{
+    background-color: #7475DA;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 550px;
+    left: 60px;
+    border: hidden;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.banner-container div img{
+    
+    position: absolute;
+    left: 471px;
+    top: 150px;
+}
